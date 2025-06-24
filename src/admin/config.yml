@@ -16,5 +16,12 @@ collections:
       - { label: "Publish Date", name: "date", widget: "datetime" }
       - { label: "Featured Image", name: "image", widget: "image" }
       - { label: "Image Caption", name: "imageAlt", widget: "string" }
+      - { label: "Files", name: "file", widget: "file"}
       - { label: "Body", name: "body", widget: "markdown" }
       - { label: "Tags", name: "tags", widget: "list", default: ["post"] }
+      - {label: "Manual PDF"
+        name: "manual_pdf"
+        widget: "file"
+        media_library:
+        config:
+          multiple: true }
