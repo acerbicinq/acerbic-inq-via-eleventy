@@ -1,7 +1,7 @@
 backend:
-  name: git-gateway
-  branch: main
-  publish_mode: editorial_workflow
+name: git-gateway
+branch: main
+publish_mode: editorial_workflow
 media_folder: "public/assets/uploads"
 public_folder: "/assets/uploads"
 collections: 
@@ -14,12 +14,6 @@ collections:
       - { label: "Layout", name: "layout", widget: "hidden", default: "blog" }
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Description", name: "description", widget: "string" }
-      - { label: "File", name: "file", widget: "file" 
-      media_library: 
-        config: 
-        multiple: true
-        choose_url: true
-        }
       - { label: "Author", name: "author", widget: "list", default: ["Chelsea Irish"]}
       - { label: "Publish Date", name: "date", widget: "datetime" }
       - { label: "Featured Image", name: "image", widget: "image" }
