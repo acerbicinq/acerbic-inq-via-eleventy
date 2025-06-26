@@ -19,9 +19,9 @@ collections:
       - { label: "Files", name: "file", widget: "file"}
       - { label: "Body", name: "body", widget: "markdown" }
       - { label: "Tags", name: "tags", widget: "list", default: ["post"] }
-      - {label: "Manual PDF"
-        name: "manual_pdf"
-        widget: "file"
+      - {label: "File",
+        name: "file",
+        widget: "file",
         media_library:
         config:
           multiple: true }
